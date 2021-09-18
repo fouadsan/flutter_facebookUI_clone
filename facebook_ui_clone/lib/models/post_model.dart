@@ -1,4 +1,3 @@
-import 'package:meta/meta.dart';
 import 'package:facebook_ui_clone/models/models.dart';
 
 class Post {
