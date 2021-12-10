@@ -1,7 +1,7 @@
 import 'package:facebook_ui_clone/models/models.dart';
 
 final User currentUser = User(
-  name: 'Marcus Ng',
+  name: 'John Doe',
   imageUrl:
       'https://images.unsplash.com/photo-1578133671540-edad0b3d689e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80',
 );
@@ -167,7 +167,7 @@ final List<Story> stories = [
 final List<Post> posts = [
   Post(
     user: currentUser,
-    caption: 'Check out these cool puppers',
+    caption: 'Lorem ipsum dolor sit amet,',
     timeAgo: '58m',
     imageUrl: 'https://images.unsplash.com/photo-1525253086316-d0c936c814f8',
     likes: 1202,
@@ -177,7 +177,7 @@ final List<Post> posts = [
   Post(
     user: onlineUsers[5],
     caption:
-        'Please enjoy this placeholder text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
     timeAgo: '3hr',
     imageUrl: '',
     likes: 683,
@@ -186,7 +186,7 @@ final List<Post> posts = [
   ),
   Post(
     user: onlineUsers[4],
-    caption: 'This is a very good boi.',
+    caption: 'Lorem ipsum dolor sit amet,',
     timeAgo: '8hr',
     imageUrl:
         'https://images.unsplash.com/photo-1575535468632-345892291673?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
@@ -207,7 +207,7 @@ final List<Post> posts = [
   Post(
     user: onlineUsers[0],
     caption:
-        'More placeholder text for the soul: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        'Lorem ipsum dolor sit amet,: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
     timeAgo: '1d',
     imageUrl: '',
     likes: 482,
@@ -216,7 +216,7 @@ final List<Post> posts = [
   ),
   Post(
     user: onlineUsers[9],
-    caption: 'A classic.',
+    caption: 'Lorem ipsum.',
     timeAgo: '1d',
     imageUrl:
         'https://images.unsplash.com/reserve/OlxPGKgRUaX0E1hg3b3X_Dumbo.JPG?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
